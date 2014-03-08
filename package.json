@@ -1,0 +1,16 @@
+{
+  "name": "beauty",
+  "version": "0.0.2",
+  "description": "",
+  "main": "index.js",
+  "author": {
+    "name": "sumory.wu",
+    "email": "sumory.wu@gmail.com"
+  },
+  "bin": {
+    "beauty": "./index.js"
+  },
+  "repository": "https://github.com/sumory/beauty",
+  "license": "MIT",
+  "dependencies": {}
+}

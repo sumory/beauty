@@ -1,0 +1,10 @@
+*.swp
+node_modules/
+nohup.out
+*.log
+.DS_Store
+coverage.html
+lib-cov/
+.lock-wscript
+build/
+logs
