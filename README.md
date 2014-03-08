@@ -1,7 +1,8 @@
 # beauty
 
-Beautiful console: colorful && stylized.  
-Use it without doing anything to `console`.
+Beautiful console: colorful && stylized. Use it without doing anything to `console`.
+
+![](https://raw.github.com/sumory/beauty/master/assets/console.png)
 
 ## Install
 
