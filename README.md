@@ -1,6 +1,6 @@
 # beauty
 
-Beautiful console: colorful && stylized. Use it without doing anything to `console`.
+Beautiful console and strings: colorful && stylized. Use it without doing anything to `console`.
 
 <img src='https://raw.github.com/sumory/beauty/master/assets/console.png' width='320px;'/>
 
@@ -16,33 +16,42 @@ Default:
 
 ```
 var beauty = require('beauty');
+beauty.beautifyConsole();//use default theme
 
-beauty.beautifyConsole();
-
-console.log('log:','just','logging');
-console.info('info: let it go...');
-console.warn('warn:', 'warning');
-console.error('error:', 'something is error');
+console.log('log:', 'one', 'two');
+console.info('info:','three');
+console.warn('warn:', 'four');
+console.error('error:', 'five');
 ```
 
-Customized theme:
+Customize theme:
 
 ```
 //only one color and several styles supported
 var theme = {
-	'log':['blue'],
-	'info': ['cyan'],
-	'warn': ['yellow'],
-	'error': ['red', 'bold', 'underline']
+	'log': ['blue','underline'],
+	'info': ['cyan','inverse'],
+	'warn': ['yellow','italic'],
+	'error': ['red','bold','underline']
 };
-beauty.setTheme(theme);
+beauty.setTheme(theme);//set new theme
 
-console.log();
+console.debug('debug:', 'zero');
+console.log('log:', 'one', 'two');
+console.info('info:','three');
+console.warn('warn:', 'four');
+console.error('error:', 'five');
+```
 
-//test it
-console.log('log:','after setting another theme');
-console.info('info: show');
-console.warn('warn:', 'ignore it');
-console.error('error:', 'shut down');
+Beautify string:
+
+```
+beauty.beautifyStr();//make strings colorful and stylized
+
+console.debug('debug:', 'one'.red.bold,'two'.yellow.italic,'three'.green.underline,'four'.magenta.inverse);
+console.log('log:', 'five'.italic);
+console.info('info:','six');
+console.warn('warn:', 'seven'.black.yellowBG);
+console.error('error:', 'eight'.underline, 'nine'.black.blueBG);
 ```
 
