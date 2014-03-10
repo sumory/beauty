@@ -9,16 +9,17 @@ console.error('error:', 'something is error');
 
 
 var theme = {
-	'log':['blue'],
-	'info': ['cyan'],
+	'log':['blue','bold'],
+	'info': ['cyan','italic'],
 	'warn': ['yellow'],
-	'error': ['red', 'bold', 'underline']
+	'error': ['red',  'underline']
 };
 beauty.setTheme(theme);
 
 console.log();
 
 //test it
+console.debug('debug', 'abcdefg');
 console.log('log:','after setting another theme');
 console.info('info: show');
 console.warn('warn:', 'ignore it');

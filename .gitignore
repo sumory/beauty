@@ -8,3 +8,4 @@ lib-cov/
 .lock-wscript
 build/
 logs
+lib/beauty.0.1.0.js
