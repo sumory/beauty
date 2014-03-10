@@ -2,9 +2,6 @@
 
 Beautiful console and strings: colorful && stylized. Use it without doing anything to `console`.
 
-
-<a href="https://nodei.co/npm/beauty/"><img src="https://nodei.co/npm/beauty.png?downloads=true&stars=true"></a>
-
 ## Screenshot
 
 <img src='https://raw.github.com/sumory/beauty/master/assets/console.png' width='450px;'/>
