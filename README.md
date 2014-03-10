@@ -2,7 +2,7 @@
 
 Beautiful console and strings: colorful && stylized. Use it without doing anything to `console`.
 
-<img src='https://raw.github.com/sumory/beauty/master/assets/console.png' width='320px;'/>
+<img src='https://raw.github.com/sumory/beauty/master/assets/console.png' width='450px;'/>
 
 ## Install
 
