@@ -2,8 +2,6 @@
 
 Beautiful console and strings: colorful && stylized. Use it without doing anything to `console`.
 
-## Screenshot
-
 <img src='https://raw.github.com/sumory/beauty/master/assets/console.png' width='450px;'/>
 
 
@@ -51,12 +49,23 @@ Beautify string:
 ```
 beauty.beautifyStr();//make strings colorful and stylized
 
-console.debug('debug:', 'one'.red.bold,'two'.yellow.italic,'three'.green.underline,'four'.magenta.inverse);
+console.debug('debug:', 'one'.red.bold,'two'.yellow.italic,'three'.green.underline);
 console.log('log:', 'five'.italic);
 console.info('info:','six');
 console.warn('warn:', 'seven'.black.yellowBG);
 console.error('error:', 'eight'.underline, 'nine'.black.blueBG);
 ```
 
+Support formatted string:
+
+```
+console.log();
+console.print('-> support formatted strings.');
+var a =['%s %s%s. %d %s','Give me one','bit','coin',0,' Blockchain'.black.bold];
+console.warn.apply(null,a)
+
+console.log('%d%d %s every day. %s every block.', 500, 0, 'bitcoin'.red, '25'.green)
+console.log('%s%s %s every day. %s every block.', '500', 0, 'bitcoin'.red, '25'.green)
+```
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/sumory/beauty/trend.png)](https://bitdeli.com/free "Bitdeli Badge")

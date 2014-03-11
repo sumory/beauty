@@ -42,5 +42,11 @@ console.info('info:','six');
 console.warn('warn:', 'seven'.black.yellowBG);
 console.error('error:', 'eight'.underline, 'nine'.black.blueBG);
 
+//test for `format`
+console.log();
+console.print('-> support formatted strings.');
+var a =['%s %s%s. %d %s','Give me one','bit','coin',0,' Blockchain'.black.bold];
+console.warn.apply(null,a)
 
-
+console.log('%d%d %s every day. %s every block.', 500, 0, 'bitcoin'.red, '25'.green)
+console.log('%s%s %s every day. %s every block.', '500', 0, 'bitcoin'.red, '25'.green)
