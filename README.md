@@ -58,3 +58,5 @@ console.warn('warn:', 'seven'.black.yellowBG);
 console.error('error:', 'eight'.underline, 'nine'.black.blueBG);
 ```
 
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/sumory/beauty/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
